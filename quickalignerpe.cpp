@@ -8,7 +8,7 @@
 #include <sys/time.h>
 #include <stdint.h>
 #include <pthread.h>
-#include "/home/chenjianping/include/zlib.h"
+#include <zlib.h>
 
 using namespace std;
 
