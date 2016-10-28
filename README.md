@@ -9,15 +9,21 @@ Qaligner is an ultrafast short reads mapper. It indexes reference sequences usin
 
 2. Software environment:
 
-linux operating system
+linux operating system, zlib library version 1.2.8
 
 3. Input Data Format:
 
-FASTQ, read length 20-500, optimal for reads between 50-150bp. Right now, quickalinger can only handle sequencing data from ILLUMINA or CPaS. ABI proton or Pacbio data are not acceptable. 
+FASTQ, read length 20-500, optimal for reads between 50-150bp. Right now, Qalinger can only handle sequencing data from ILLUMINA or CPaS. ABI proton or Pacbio data are not acceptable. 
 
 4. Reference size limit:
 
 Right now, the total length of reference seqences should not exceed 4G. 
+
+5. complie
+
+    a.  g++ indexbuilder.cpp -o indexbuilder （reference indexing）
+    b.  g++ quickalignerpe.cpp -o paligner -lpthread -lz（pair ends aligner）
+    c.  g++ quickalignerse.cpp -o saligner -lpthread -lz（single end aligner）
 
 5. Usage (If programs not executable, using chmod +x to change permissions.)
 
