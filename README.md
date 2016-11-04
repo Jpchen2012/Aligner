@@ -25,7 +25,7 @@ Right now, the total length of reference seqences should not exceed 4G.
     b.  g++ quickalignerpe.cpp -o paligner -lpthread -lz（pair ends aligner）
     c.  g++ quickalignerse.cpp -o saligner -lpthread -lz（single end aligner）
 
-5. Usage (If programs not executable, using chmod +x to change permissions.)
+5. Usage
 
 Index:
 	./indexbuilder	reference.fa index 
