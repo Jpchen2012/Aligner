@@ -1,4 +1,4 @@
-Qaligner is an ultrafast short reads mapper. It indexes reference sequences using 14mer hash tables, and quickly searches mapping results using an efficient alignment algorithm. 
+This folder contains binary versions of Qaligner. 
 
 1. Hardware requirements:
 
