@@ -4,7 +4,7 @@ Qaligner is an ultrafast short reads mapper. It indexes reference sequences usin
 
 1. Hardware requirements:
 
-	64bit CPU
+	64bit CPU,
 	20G memory
 
 2. Software environment:
