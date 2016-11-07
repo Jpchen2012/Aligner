@@ -20,8 +20,11 @@ Qaligner is an ultrafast short reads mapper. It indexes reference sequences usin
 	Right now, the total length of reference seqences should not exceed 4G. 
 
 5. complie
+
 	a.  g++ indexbuilder.cpp -o indexbuilder （reference indexing）
+	
 	b.  g++ quickalignerpe.cpp -o paligner -lpthread -lz（pair ends aligner）
+	
 	c.  g++ quickalignerse.cpp -o saligner -lpthread -lz（single end aligner）
 
 5. Usage
