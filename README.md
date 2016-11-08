@@ -50,7 +50,7 @@ Qaligner is an ultrafast short reads mapper. It indexes reference sequences usin
 
 	-sm, name of the sample
 
-	-pl, name of plateform, ILLUMINA or CPaS
+	-pl, name of plateform, ILLUMINA
 
 	-lb, name of the library.
 
